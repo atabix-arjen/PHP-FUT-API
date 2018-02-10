@@ -7,7 +7,7 @@ namespace JKetelaar\fut\api\config;
 
 abstract class Comparisons {
 
-    const MAIN_LOGIN_TITLE            = 'Log In';
+    const MAIN_LOGIN_TITLE            = 'FUT Web App - EA SPORTS Official Site';
     const LOGIN_FORM_TITLE            = 'Login Verification';
     const NO_AUTHENTICATOR_FORM_TITLE = 'Set Up an App Authenticator';
     const LOGGED_IN_TITLE             = 'FIFA Football | FUT Web App | EA SPORTS';
