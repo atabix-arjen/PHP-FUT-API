@@ -1,13 +1,6 @@
 {
-  "name": "jketelaar/php-fut-api",
+  "name": "atabix-arjen/php-fut-api",
   "type": "library",
-  "authors": [
-    {
-      "name": "JKetelaar",
-      "email": "jeroen@ketelaar.me",
-      "homepage": "http://jketelaar.nl/"
-    }
-  ],
   "description": "Allows you to interact with the FUT using PHP",
   "keywords": [
     "fut",
@@ -16,15 +9,14 @@
     "api"
   ],
   "homepage": "https://github.com/JKetelaar/PHP-FUT-Bot",
-  "version": "0.0.6",
+  "version": "0.0.1",
   "license": "GPL-3.0+",
   "require": {
-    "php": "^5.5 || ^7.0",
+    "php": "^7.0",
     "php-curl-class/php-curl-class": "^7.0",
     "sunra/php-simple-html-dom-parser": "^1.5",
     "spomky-labs/otphp": "^8.2",
     "myclabs/php-enum": "^1.4",
-    "phpunit/phpunit": "5.5.*",
     "fut/eahashor": "^1.0"
   },
   "autoload": {
