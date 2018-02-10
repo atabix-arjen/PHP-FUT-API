@@ -63,7 +63,7 @@ class API {
             throw new UnknownPlatform();
         }
 
-        if(function_exists($token_function)) {
+        if(is_callable($token_function)) {
             $this->user = new User($username, $password, $secret, $token_function, $platform);
         } else {
             throw new NonExistingTokenFunction();
