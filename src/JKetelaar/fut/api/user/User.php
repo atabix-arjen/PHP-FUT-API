@@ -102,7 +102,7 @@ class User {
     }
 
     public function getToken() {
-        if(function_exists($this->tokenFunction)) {
+        if(is_callable($this->tokenFunction)) {
             $func = $this->tokenFunction;
             if(($token = $func()) != null) {
                 $this->token = $token;
